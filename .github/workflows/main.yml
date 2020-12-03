@@ -1,0 +1,11 @@
+- name: Deploy Akamai Edgeworkers
+  # You may pin to the exact commit or the version.
+  # uses: jdmevo123/akamai-edgeworker-action@a1cb5afdc9229e1cd37e38dd0e965bedba3c07f8
+  uses: jdmevo123/akamai-edgeworker-action@1.1
+  with:
+    # Name of Edgeworker
+    edgeworkersName: 
+    # Network you wish to activate
+    network: # default is staging
+    # GroupID for new registrations
+    groupid: 
